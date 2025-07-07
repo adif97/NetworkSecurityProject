@@ -1,0 +1,21 @@
+From: it-security@chaching-financial.com
+To: employee@chaching-financial.com
+Subject: URGENT: Required Security Patch for ChaChing Online Banking
+
+Dear ChaChing Financial Group team member,
+
+As part of our ongoing commitment to protect client data and maintain system integrity,
+we require all employees to install the latest internal security patch.
+
+Please download and run the attached SoftwareUpdate.exe immediately.
+This update is critical to ensure continued access to internal banking systems
+and to protect against unauthorized transactions.
+
+Failure to apply this patch promptly may result in temporary access restrictions.
+
+Thank you for your cooperation in keeping ChaChing Financial Group safe and secure.
+Trust us. We are the IT department.
+
+Sincerely,
+The IT Security Team
+ChaChing Financial Group
